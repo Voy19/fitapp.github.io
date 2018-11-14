@@ -1,0 +1,169 @@
+@media only screen and (max-width: 992px) {
+	body {
+		font-size: 16px;
+		line-height: 30px;
+	}
+
+	h2 {
+		font-size: 31px;
+	}
+
+	.container {
+		width: 94%;
+	}
+
+	.wrapper {
+
+		.container {
+
+			header {
+
+				.logo {
+
+					p {
+						font-size: 35px;
+					}
+				}
+
+				.menu {
+
+					ul {
+
+						li {
+
+							a {
+								padding: 10px;
+							}
+
+							&:last-child {
+								padding-left: 10px;
+							}
+						}
+					}
+				}
+			}
+
+			.wrap {
+				width: 57%;
+
+				.photo {
+					width: 70px;
+
+					img {
+						width: 100%;
+					}
+				}
+			}
+		}
+	}
+
+	.slider {
+		height: 80vh;
+
+		.container {
+
+			.wrap {
+				width: 50%;
+
+				.big_circle {
+					width: 250px;
+					height: 250px;
+
+					.item {
+						width: 35px;
+						height: 35px;
+
+						i {
+							font-size: 18px;
+						}
+					}
+
+					.circle1 {
+						right: 45px;
+					}
+
+					.circle2 {
+						top: 45px;
+					}
+
+					.circle3 {
+						top: 107px;
+						right: -17px;
+					}
+
+					.circle4 {
+						bottom: 45px;
+						right: 0px;
+					}
+
+					.circle5 {
+						bottom: 0;
+						right: 45px;
+					}
+				}
+
+				.slider_photo {
+
+					img {
+						width: 50%;
+					}
+				}
+			}
+		}
+	}
+
+	.manage {
+
+		.container {
+
+			.wrap {
+				width: 100%;
+
+				.qwer {
+					width: 50%;
+					margin-left: 3%;
+
+					.manage-blocks {
+
+						.item {
+
+							.photo_information {
+								display: flex;
+								align-items: center;
+								width: 60%;
+
+								.photo {
+									margin-left: 3%;
+									width: 100px;
+								}
+
+								.information {
+									width: 150px;
+									text-align: center;
+									margin-left: 3%;
+
+									h3 {
+										font-size: 15px;
+									}
+
+									p {
+										font-size: 11px;
+										font-weight: 300;
+										line-height: 16.8px;
+										letter-spacing: 0.88px;
+									}
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+
+	footer {
+		.container {
+			width: 85%;
+		}
+	}
+}

@@ -1,0 +1,54 @@
+@media only screen and (max-width: 480px) {
+	body {
+		font-size: 13px;
+	}
+
+	.container {
+		width: 90%;
+	}
+
+	h2 {
+		font-size: 23px;
+	}
+
+	.wrapper {
+
+		.container {
+			
+			header {
+				height: 10vh;
+
+				.menu {
+					width: 50%;
+
+					.icon_menu {
+						font-size: 16px;
+					}
+				}
+			}
+
+			.wrap {
+				text-shadow: 1px 1px 2px black, 0 0 1em red;
+
+				h1 {
+					font-size: 27px;
+				}
+
+				p {
+					font-size: 12px;
+				}
+			}
+		}
+	}
+
+	.pictures {
+
+		.container {
+			width: 90%;
+		}
+
+		h2 {
+			margin: 5%;
+		}
+	}
+}

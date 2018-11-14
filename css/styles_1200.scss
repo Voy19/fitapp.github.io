@@ -1,0 +1,70 @@
+@media only screen and (max-width: 1200px) {
+	body {
+		font-size: 16px;
+		line-height: 30px;
+	}
+
+	h2 {
+		font-size: 39px;
+	}
+
+	.container {
+		width: 95%;
+	}
+
+	.wrapper {
+
+		.container {
+
+			header {
+
+				.menu {
+
+					ul {
+
+						li {
+
+							a {
+								padding: 10px 20px;
+							}
+						}
+
+						.get {
+							padding-left: 20px;
+						}
+					}
+				}
+			}
+		}
+	}
+
+	.slider {
+		height: 85vh;
+	}
+
+	.pictures {
+
+		.container {
+			width: 85%;
+		}
+	}
+
+	.manage {
+
+		.container {
+
+			.wrap {
+
+				.qwer {
+					width: 45%;
+				}
+			}
+		}
+	}
+
+	footer {
+		.container {
+			width: 85%;
+		}
+	}
+}
